@@ -1,0 +1,39 @@
+.conCard{
+    width: 88%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.conCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.conCard div{
+    margin-left: 25px;
+    position: absolute;
+}
+.conCard h4{
+    color: #777;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.2;
+}
+.conCard h3{
+    color: #333;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: -0.5rem;
+    letter-spacing: -0.03em;
+}
+.conCard a{
+    color: #c96;
+    font-weight: 400;
+    line-height: 2;
+    transition: color .4s ease;
+}
+.conCard a:hover {
+    text-decoration: underline;
+}

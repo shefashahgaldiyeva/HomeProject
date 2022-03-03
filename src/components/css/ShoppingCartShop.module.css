@@ -1,0 +1,21 @@
+.bg{
+    padding: 2.6rem 0 3rem;
+    text-align: center;
+    background-color: #ebebeb;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.bg h1{
+    color: #333;
+    font-size: 3rem;
+    font-weight: 400;
+    /* font: 400 3rem Manrope; */
+    letter-spacing: -.025em;
+}
+.bg span{
+    display: block;
+    color: #c96;
+    font-size: 1.6rem;
+    margin-top: .8rem;
+}

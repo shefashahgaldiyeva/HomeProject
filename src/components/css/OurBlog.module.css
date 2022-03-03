@@ -1,0 +1,125 @@
+.OurBlog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+.OurBlogInner{
+    width: 90%;
+}
+.OurBlogText{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.OurBlogText>div{
+    width: 32%;
+    padding-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.OurBlogInner>h2{
+    margin: 2.5rem 0;
+    letter-spacing: -.025em;
+    font-weight: 500;
+    color: #333;
+    font-size: 1.8rem;
+}
+.OurBlogText>div img{
+    width: 100%;
+}
+.OurBlogText .dateInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.OurBlogText .date{
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-flow: wrap;
+    color: #777;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: .5rem;
+}
+.OurBlogText .date a{
+    color: #777;
+    line-height: 1.5;
+    transition: all .3s ease;
+    padding-bottom: .1rem;
+}
+.OurBlogText .date a:hover{
+    /* border-bottom: 1px solid #c96; */
+    text-decoration: underline;
+}
+a:hover{
+    color: #c96 !important;
+}
+.dateInner>h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    letter-spacing: -.025em;
+    margin-bottom: .4rem;
+}
+.dateInner>h2 a{
+    color: #333;
+}
+.dateInner p{
+    margin-bottom: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #777 !important;
+}
+.dateInner span{
+    display: inline-block;
+    position: relative;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    padding-bottom: .1rem;
+    transition: all .3s ease;
+    text-transform: uppercase;
+}
+.dateInner>span a{
+    color: #bf8040;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* display: inline-block; */
+    position: relative;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    padding-bottom: .1rem;
+    transition: all .3s ease;
+    
+}
+.dateInner .a:hover{
+    border-bottom: 1.5px solid #c96;
+}
+.dateInner>span a .icon{
+    display: none;
+}
+.dateInner>span a:hover .icon{ 
+    display: inline-block;
+    position: absolute;
+    right: -.3rem;
+    top: 10%;
+    transition: all 0.5s ease 0s;
+    animation-timing-function: ease;
+    animation-duration: 150ms;
+    animation-name: animation-arrow;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+@keyframes  animation-arrow{
+    from {transform: translateX(-20%);}
+    to {transform: translateX(80%);}
+}

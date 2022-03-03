@@ -1,0 +1,63 @@
+.categories{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categoriesInner{
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+}
+.categories h2{
+    margin-bottom: 3.5rem!important;
+    letter-spacing: -.025em;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+}
+.categoriesInner .banner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .row{
+    width: 32%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.banner .col{
+    width: 32%;
+    display: flex;
+}
+.mainScrolledLeft,
+.mainScrolledRight{
+    width: 32%;
+    display: flex;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-delay: 150ms;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+.mainScrolledLeft{
+    animation-name: animation-left;
+}
+.mainScrolledRight{
+    animation-name: animation-right;
+}
+@keyframes animation-left{
+    from {transform: translateX(-200%);}
+    to {transform: translateX(0%);}
+}
+@keyframes animation-right{
+    from {transform: translateX(200%);}
+    to {transform: translateX(0%);}
+}

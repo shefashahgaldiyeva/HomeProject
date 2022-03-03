@@ -1,0 +1,47 @@
+.footerTop{
+    width: 100%;
+    margin-top: 4rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #999;
+}
+.footerTop .form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerTop input{
+       width: 70%;
+       padding-left: 1.8rem;
+       font-weight: inherit;
+       height: 41px;
+       color: #777;
+       margin: 4rem 0;
+       border: none;
+       outline: none;
+       border-radius: 0;
+}
+.footerTop button{
+    background-color: #fff;
+    font-weight: 400;
+    height: 41px;
+    letter-spacing: -.01em;
+    border-radius: 0;
+    transition: all .3s;
+    min-width: 20%;
+    color: #c96;
+    border: none;
+    outline: none;
+}
+.footerTop button:hover{
+    background-color: #c96;
+    color: #fff;
+    cursor: pointer;
+}

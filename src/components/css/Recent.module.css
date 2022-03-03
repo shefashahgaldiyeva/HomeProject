@@ -1,0 +1,45 @@
+* { box-sizing: border-box }
+.lunchbox1{
+	width: 92% !important;
+	margin-top: 1.4rem;
+	display: flex; 
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+    cursor: pointer;
+}
+.lunchboxWrapper{
+	width: 100%;
+}
+.lunchboxWrapper1{
+	width: 100% !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cardWrapper{
+    width: 100% !important;
+    display: flex;
+    flex-flow: row wrap;
+	justify-content: center;
+
+}
+.ShopCard{
+    width: 25% !important;
+}
+
+
+
+
+
+
+
+
+
+
+	
+
+
+

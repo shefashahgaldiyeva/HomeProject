@@ -1,0 +1,89 @@
+.topHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.topHeaderInner{
+    width: 91%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+/* .topHeaderInner::after{
+    content: '';
+    text-align: center;
+    width: 92%;
+    height: 1px;
+    bottom: 0;
+    background-color: rgb(185, 185, 185);
+    position: absolute;
+} */
+.topHeaderInner a{
+    color: rgb(121, 121, 121);
+    transition: .4s;
+}
+.topHeaderInner a:hover{
+    color: #c96;
+}
+.topHeaderInner .left{
+    width: 20%;
+    display: flex;
+}
+.topHeaderInner .left span{
+    margin-right: 25px;
+    position: relative;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+.topHeaderInner .left span>a{
+    display: block;
+    padding: 5px 0;
+}
+.topHeaderInner .left span ul{
+    display: none;
+    position: absolute;
+}
+.topHeaderInner .left span:hover ul{
+    display: block;
+}
+.topHeaderInner .left span ul{
+    margin-top: 27px;
+    padding: 15px;
+    font-size: 13px;
+    text-transform: capitalize !important;
+    background-color: white;
+    box-shadow: 0px 7px 19px -1px rgba(113,114,114,0.7);
+}
+.topHeaderInner .left span ul li{
+    margin-top: 3px;
+}
+.topHeaderInner .right{
+    width: 50%;
+}
+.topHeaderInner .right>ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topHeaderInner .right>ul li a{
+    display: flex;
+    align-items: center;
+}
+.topHeaderInner .right>ul li a{
+    display: flex;
+    align-items: center;
+}
+.topHeaderInner .right>ul li a span{
+    margin-left: 5px;
+}
+/* .topHeaderInner hr{
+    width: 92px !important;
+    position: absolute;
+} */
